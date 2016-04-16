@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: 4432d2a296e0530468a6a5688e77c3d3
+timeCreated: 1437594911
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.007
+    100014: Cube.008
+    100016: joint44
+    100018: joint45
+    100020: joint46
+    100022: joint47
+    100024: joint48
+    100026: joint49
+    100028: joint50
+    100030: joint51
+    100032: joint52
+    100034: joint53
+    100036: joint54
+    100038: joint55
+    100040: joint56
+    100042: joint57
+    100044: joint58
+    100046: joint59
+    100048: joint60
+    100050: joint61
+    100052: Plane
+    100054: Plane.003
+    100056: Plane.005
+    100058: Plane.007
+    100060: Plane.009
+    100062: polySurface71
+    100064: polySurface71 1
+    100066: polySurface72
+    100068: polySurface73
+    100070: polySurface75
+    100072: polySurface77
+    100074: polySurface78
+    100076: polySurface79
+    100078: polySurface80
+    100080: polySurface81
+    100082: transform10
+    100084: transform5
+    100086: transform6
+    100088: transform7
+    100090: transform8
+    100092: transform9
+    100094: Cube
+    100096: Cylinder
+    100098: Cylinder.002
+    400000: //RootNode
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.007
+    400014: Cube.008
+    400016: joint44
+    400018: joint45
+    400020: joint46
+    400022: joint47
+    400024: joint48
+    400026: joint49
+    400028: joint50
+    400030: joint51
+    400032: joint52
+    400034: joint53
+    400036: joint54
+    400038: joint55
+    400040: joint56
+    400042: joint57
+    400044: joint58
+    400046: joint59
+    400048: joint60
+    400050: joint61
+    400052: Plane
+    400054: Plane.003
+    400056: Plane.005
+    400058: Plane.007
+    400060: Plane.009
+    400062: polySurface71
+    400064: polySurface71 1
+    400066: polySurface72
+    400068: polySurface73
+    400070: polySurface75
+    400072: polySurface77
+    400074: polySurface78
+    400076: polySurface79
+    400078: polySurface80
+    400080: polySurface81
+    400082: transform10
+    400084: transform5
+    400086: transform6
+    400088: transform7
+    400090: transform8
+    400092: transform9
+    400094: Cube
+    400096: Cylinder
+    400098: Cylinder.002
+    2300000: Cylinder
+    3300000: Cylinder
+    4300000: Cube.008
+    4300002: Plane.009
+    4300004: Plane.007
+    4300006: Plane.005
+    4300008: Plane.003
+    4300010: Cube.007
+    4300012: Cube.005
+    4300014: polySurface78
+    4300016: polySurface79
+    4300018: polySurface80
+    4300020: polySurface81
+    4300022: Cube.002
+    4300024: Cube.001
+    4300026: polySurface75
+    4300028: polySurface77
+    4300030: polySurface73
+    4300032: Cylinder.002
+    4300034: Cylinder
+    4300036: Cube
+    7400000: idle
+    7400002: walk
+    7400004: jump
+    7400006: sidDown
+    7400008: sitting
+    7400010: standUp
+    9500000: //RootNode
+    13700000: Cube.001
+    13700002: Cube.002
+    13700004: Cube.005
+    13700006: Cube.007
+    13700008: Cube.008
+    13700010: Plane.003
+    13700012: Plane.005
+    13700014: Plane.007
+    13700016: Plane.009
+    13700018: polySurface73
+    13700020: polySurface75
+    13700022: polySurface77
+    13700024: polySurface78
+    13700026: polySurface79
+    13700028: polySurface80
+    13700030: polySurface81
+    13700032: Cube
+    13700034: Cylinder.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 441
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.001/polySurface75
+        weight: 1
+      - path: Cube.001/polySurface77
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.003/polySurface80
+        weight: 1
+      - path: Cube.003/polySurface81
+        weight: 1
+      - path: Cube.003/transform10
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: Cube.004/polySurface78
+        weight: 1
+      - path: Cube.004/polySurface79
+        weight: 1
+      - path: Cube.004/transform9
+        weight: 1
+      - path: Cube.005
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      - path: Cube.008
+        weight: 1
+      - path: Cube.008/Plane.003
+        weight: 1
+      - path: Cube.008/Plane.005
+        weight: 1
+      - path: Cube.008/Plane.007
+        weight: 1
+      - path: Cube.008/Plane.009
+        weight: 1
+      - path: joint44
+        weight: 1
+      - path: joint44/joint45
+        weight: 1
+      - path: joint44/joint45/joint46
+        weight: 1
+      - path: joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint44/joint45/joint55
+        weight: 1
+      - path: joint44/joint45/joint55/joint56
+        weight: 1
+      - path: joint44/joint45/joint55/joint56/joint57
+        weight: 1
+      - path: joint44/joint45/joint58
+        weight: 1
+      - path: joint44/joint45/joint58/joint59
+        weight: 1
+      - path: joint44/joint45/joint58/joint59/joint60
+        weight: 1
+      - path: joint44/joint45/joint61
+        weight: 1
+      - path: joint44/joint49
+        weight: 1
+      - path: joint44/joint49/joint50
+        weight: 1
+      - path: joint44/joint49/joint50/joint51
+        weight: 1
+      - path: joint44/joint52
+        weight: 1
+      - path: joint44/joint52/joint53
+        weight: 1
+      - path: joint44/joint52/joint53/joint54
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane/polySurface71 1
+        weight: 1
+      - path: Plane/polySurface71 1/transform7
+        weight: 1
+      - path: Plane/polySurface72
+        weight: 1
+      - path: Plane/polySurface72/transform6
+        weight: 1
+      - path: Plane/transform5
+        weight: 1
+      - path: polySurface71
+        weight: 1
+      - path: polySurface71/polySurface73
+        weight: 1
+      - path: polySurface71/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 474
+      lastFrame: 541
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.001/polySurface75
+        weight: 1
+      - path: Cube.001/polySurface77
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.003/polySurface80
+        weight: 1
+      - path: Cube.003/polySurface81
+        weight: 1
+      - path: Cube.003/transform10
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: Cube.004/polySurface78
+        weight: 1
+      - path: Cube.004/polySurface79
+        weight: 1
+      - path: Cube.004/transform9
+        weight: 1
+      - path: Cube.005
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      - path: Cube.008
+        weight: 1
+      - path: Cube.008/Plane.003
+        weight: 1
+      - path: Cube.008/Plane.005
+        weight: 1
+      - path: Cube.008/Plane.007
+        weight: 1
+      - path: Cube.008/Plane.009
+        weight: 1
+      - path: joint44
+        weight: 1
+      - path: joint44/joint45
+        weight: 1
+      - path: joint44/joint45/joint46
+        weight: 1
+      - path: joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint44/joint45/joint55
+        weight: 1
+      - path: joint44/joint45/joint55/joint56
+        weight: 1
+      - path: joint44/joint45/joint55/joint56/joint57
+        weight: 1
+      - path: joint44/joint45/joint58
+        weight: 1
+      - path: joint44/joint45/joint58/joint59
+        weight: 1
+      - path: joint44/joint45/joint58/joint59/joint60
+        weight: 1
+      - path: joint44/joint45/joint61
+        weight: 1
+      - path: joint44/joint49
+        weight: 1
+      - path: joint44/joint49/joint50
+        weight: 1
+      - path: joint44/joint49/joint50/joint51
+        weight: 1
+      - path: joint44/joint52
+        weight: 1
+      - path: joint44/joint52/joint53
+        weight: 1
+      - path: joint44/joint52/joint53/joint54
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane/polySurface71 1
+        weight: 1
+      - path: Plane/polySurface71 1/transform7
+        weight: 1
+      - path: Plane/polySurface72
+        weight: 1
+      - path: Plane/polySurface72/transform6
+        weight: 1
+      - path: Plane/transform5
+        weight: 1
+      - path: polySurface71
+        weight: 1
+      - path: polySurface71/polySurface73
+        weight: 1
+      - path: polySurface71/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 562
+      lastFrame: 652
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.001/polySurface75
+        weight: 1
+      - path: Cube.001/polySurface77
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.003/polySurface80
+        weight: 1
+      - path: Cube.003/polySurface81
+        weight: 1
+      - path: Cube.003/transform10
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: Cube.004/polySurface78
+        weight: 1
+      - path: Cube.004/polySurface79
+        weight: 1
+      - path: Cube.004/transform9
+        weight: 1
+      - path: Cube.005
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      - path: Cube.008
+        weight: 1
+      - path: Cube.008/Plane.003
+        weight: 1
+      - path: Cube.008/Plane.005
+        weight: 1
+      - path: Cube.008/Plane.007
+        weight: 1
+      - path: Cube.008/Plane.009
+        weight: 1
+      - path: joint44
+        weight: 1
+      - path: joint44/joint45
+        weight: 1
+      - path: joint44/joint45/joint46
+        weight: 1
+      - path: joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint44/joint45/joint55
+        weight: 1
+      - path: joint44/joint45/joint55/joint56
+        weight: 1
+      - path: joint44/joint45/joint55/joint56/joint57
+        weight: 1
+      - path: joint44/joint45/joint58
+        weight: 1
+      - path: joint44/joint45/joint58/joint59
+        weight: 1
+      - path: joint44/joint45/joint58/joint59/joint60
+        weight: 1
+      - path: joint44/joint45/joint61
+        weight: 1
+      - path: joint44/joint49
+        weight: 1
+      - path: joint44/joint49/joint50
+        weight: 1
+      - path: joint44/joint49/joint50/joint51
+        weight: 1
+      - path: joint44/joint52
+        weight: 1
+      - path: joint44/joint52/joint53
+        weight: 1
+      - path: joint44/joint52/joint53/joint54
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane/polySurface71 1
+        weight: 1
+      - path: Plane/polySurface71 1/transform7
+        weight: 1
+      - path: Plane/polySurface72
+        weight: 1
+      - path: Plane/polySurface72/transform6
+        weight: 1
+      - path: Plane/transform5
+        weight: 1
+      - path: polySurface71
+        weight: 1
+      - path: polySurface71/polySurface73
+        weight: 1
+      - path: polySurface71/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: sidDown
+      takeName: Take 001
+      firstFrame: 681
+      lastFrame: 740
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.001/polySurface75
+        weight: 1
+      - path: Cube.001/polySurface77
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.003/polySurface80
+        weight: 1
+      - path: Cube.003/polySurface81
+        weight: 1
+      - path: Cube.003/transform10
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: Cube.004/polySurface78
+        weight: 1
+      - path: Cube.004/polySurface79
+        weight: 1
+      - path: Cube.004/transform9
+        weight: 1
+      - path: Cube.005
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      - path: Cube.008
+        weight: 1
+      - path: Cube.008/Plane.003
+        weight: 1
+      - path: Cube.008/Plane.005
+        weight: 1
+      - path: Cube.008/Plane.007
+        weight: 1
+      - path: Cube.008/Plane.009
+        weight: 1
+      - path: joint44
+        weight: 1
+      - path: joint44/joint45
+        weight: 1
+      - path: joint44/joint45/joint46
+        weight: 1
+      - path: joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint44/joint45/joint55
+        weight: 1
+      - path: joint44/joint45/joint55/joint56
+        weight: 1
+      - path: joint44/joint45/joint55/joint56/joint57
+        weight: 1
+      - path: joint44/joint45/joint58
+        weight: 1
+      - path: joint44/joint45/joint58/joint59
+        weight: 1
+      - path: joint44/joint45/joint58/joint59/joint60
+        weight: 1
+      - path: joint44/joint45/joint61
+        weight: 1
+      - path: joint44/joint49
+        weight: 1
+      - path: joint44/joint49/joint50
+        weight: 1
+      - path: joint44/joint49/joint50/joint51
+        weight: 1
+      - path: joint44/joint52
+        weight: 1
+      - path: joint44/joint52/joint53
+        weight: 1
+      - path: joint44/joint52/joint53/joint54
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane/polySurface71 1
+        weight: 1
+      - path: Plane/polySurface71 1/transform7
+        weight: 1
+      - path: Plane/polySurface72
+        weight: 1
+      - path: Plane/polySurface72/transform6
+        weight: 1
+      - path: Plane/transform5
+        weight: 1
+      - path: polySurface71
+        weight: 1
+      - path: polySurface71/polySurface73
+        weight: 1
+      - path: polySurface71/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: sitting
+      takeName: Take 001
+      firstFrame: 741
+      lastFrame: 1022
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.001/polySurface75
+        weight: 1
+      - path: Cube.001/polySurface77
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.003/polySurface80
+        weight: 1
+      - path: Cube.003/polySurface81
+        weight: 1
+      - path: Cube.003/transform10
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: Cube.004/polySurface78
+        weight: 1
+      - path: Cube.004/polySurface79
+        weight: 1
+      - path: Cube.004/transform9
+        weight: 1
+      - path: Cube.005
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      - path: Cube.008
+        weight: 1
+      - path: Cube.008/Plane.003
+        weight: 1
+      - path: Cube.008/Plane.005
+        weight: 1
+      - path: Cube.008/Plane.007
+        weight: 1
+      - path: Cube.008/Plane.009
+        weight: 1
+      - path: joint44
+        weight: 1
+      - path: joint44/joint45
+        weight: 1
+      - path: joint44/joint45/joint46
+        weight: 1
+      - path: joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint44/joint45/joint55
+        weight: 1
+      - path: joint44/joint45/joint55/joint56
+        weight: 1
+      - path: joint44/joint45/joint55/joint56/joint57
+        weight: 1
+      - path: joint44/joint45/joint58
+        weight: 1
+      - path: joint44/joint45/joint58/joint59
+        weight: 1
+      - path: joint44/joint45/joint58/joint59/joint60
+        weight: 1
+      - path: joint44/joint45/joint61
+        weight: 1
+      - path: joint44/joint49
+        weight: 1
+      - path: joint44/joint49/joint50
+        weight: 1
+      - path: joint44/joint49/joint50/joint51
+        weight: 1
+      - path: joint44/joint52
+        weight: 1
+      - path: joint44/joint52/joint53
+        weight: 1
+      - path: joint44/joint52/joint53/joint54
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane/polySurface71 1
+        weight: 1
+      - path: Plane/polySurface71 1/transform7
+        weight: 1
+      - path: Plane/polySurface72
+        weight: 1
+      - path: Plane/polySurface72/transform6
+        weight: 1
+      - path: Plane/transform5
+        weight: 1
+      - path: polySurface71
+        weight: 1
+      - path: polySurface71/polySurface73
+        weight: 1
+      - path: polySurface71/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: standUp
+      takeName: Take 001
+      firstFrame: 1023
+      lastFrame: 1100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.001/polySurface75
+        weight: 1
+      - path: Cube.001/polySurface77
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.003/polySurface80
+        weight: 1
+      - path: Cube.003/polySurface81
+        weight: 1
+      - path: Cube.003/transform10
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: Cube.004/polySurface78
+        weight: 1
+      - path: Cube.004/polySurface79
+        weight: 1
+      - path: Cube.004/transform9
+        weight: 1
+      - path: Cube.005
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      - path: Cube.008
+        weight: 1
+      - path: Cube.008/Plane.003
+        weight: 1
+      - path: Cube.008/Plane.005
+        weight: 1
+      - path: Cube.008/Plane.007
+        weight: 1
+      - path: Cube.008/Plane.009
+        weight: 1
+      - path: joint44
+        weight: 1
+      - path: joint44/joint45
+        weight: 1
+      - path: joint44/joint45/joint46
+        weight: 1
+      - path: joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint44/joint45/joint55
+        weight: 1
+      - path: joint44/joint45/joint55/joint56
+        weight: 1
+      - path: joint44/joint45/joint55/joint56/joint57
+        weight: 1
+      - path: joint44/joint45/joint58
+        weight: 1
+      - path: joint44/joint45/joint58/joint59
+        weight: 1
+      - path: joint44/joint45/joint58/joint59/joint60
+        weight: 1
+      - path: joint44/joint45/joint61
+        weight: 1
+      - path: joint44/joint49
+        weight: 1
+      - path: joint44/joint49/joint50
+        weight: 1
+      - path: joint44/joint49/joint50/joint51
+        weight: 1
+      - path: joint44/joint52
+        weight: 1
+      - path: joint44/joint52/joint53
+        weight: 1
+      - path: joint44/joint52/joint53/joint54
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane/polySurface71 1
+        weight: 1
+      - path: Plane/polySurface71 1/transform7
+        weight: 1
+      - path: Plane/polySurface72
+        weight: 1
+      - path: Plane/polySurface72/transform6
+        weight: 1
+      - path: Plane/transform5
+        weight: 1
+      - path: polySurface71
+        weight: 1
+      - path: polySurface71/polySurface73
+        weight: 1
+      - path: polySurface71/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

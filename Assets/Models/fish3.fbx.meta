@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: a1a7bb0fb65a6f04b83aca7af669ab97
+timeCreated: 1437593515
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: joint25
+    100004: joint26
+    100006: joint27
+    100008: joint28
+    100010: joint29
+    100012: joint30
+    100014: joint31
+    100016: joint32
+    100018: joint33
+    100020: joint34
+    100022: joint35
+    100024: joint36
+    100026: joint37
+    100028: joint38
+    100030: joint39
+    100032: joint40
+    100034: joint41
+    100036: joint42
+    100038: joint43
+    100040: pCube17
+    100042: pCube18
+    100044: pCube19
+    100046: pCube20
+    100048: pCube21
+    100050: pCube22
+    100052: pCube23
+    100054: pCylinder1
+    100056: polySurface63
+    100058: polySurface64
+    100060: polySurface65
+    100062: polySurface66
+    100064: polySurface67
+    100066: polySurface68
+    100068: polySurface69
+    100070: polySurface70
+    100072: transform3
+    100074: transform4
+    400000: //RootNode
+    400002: joint25
+    400004: joint26
+    400006: joint27
+    400008: joint28
+    400010: joint29
+    400012: joint30
+    400014: joint31
+    400016: joint32
+    400018: joint33
+    400020: joint34
+    400022: joint35
+    400024: joint36
+    400026: joint37
+    400028: joint38
+    400030: joint39
+    400032: joint40
+    400034: joint41
+    400036: joint42
+    400038: joint43
+    400040: pCube17
+    400042: pCube18
+    400044: pCube19
+    400046: pCube20
+    400048: pCube21
+    400050: pCube22
+    400052: pCube23
+    400054: pCylinder1
+    400056: polySurface63
+    400058: polySurface64
+    400060: polySurface65
+    400062: polySurface66
+    400064: polySurface67
+    400066: polySurface68
+    400068: polySurface69
+    400070: polySurface70
+    400072: transform3
+    400074: transform4
+    2300000: pCube23
+    3300000: pCube23
+    4300000: pCube22
+    4300002: pCube21
+    4300004: pCube20
+    4300006: pCube19
+    4300008: pCube18
+    4300010: pCube17
+    4300012: polySurface70
+    4300014: polySurface69
+    4300016: polySurface68
+    4300018: polySurface66
+    4300020: polySurface65
+    4300022: polySurface64
+    4300024: polySurface63
+    4300026: pCube23
+    7400000: flopFish
+    9500000: //RootNode
+    13700000: pCube17
+    13700002: pCube18
+    13700004: pCube19
+    13700006: pCube20
+    13700008: pCube21
+    13700010: pCube22
+    13700012: polySurface63
+    13700014: polySurface64
+    13700016: polySurface65
+    13700018: polySurface66
+    13700020: polySurface68
+    13700022: polySurface69
+    13700024: polySurface70
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: flopFish
+      takeName: Take 001
+      firstFrame: 520
+      lastFrame: 640
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube17
+        weight: 1
+      - path: pCube18
+        weight: 1
+      - path: pCube19
+        weight: 1
+      - path: pCube20
+        weight: 1
+      - path: pCube21
+        weight: 1
+      - path: pCube22
+        weight: 1
+      - path: pCube23
+        weight: 1
+      - path: pCube23/joint25
+        weight: 1
+      - path: pCube23/joint25/joint26
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30/joint31
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30/joint31/joint32
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30/joint31/joint32/joint43
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30/joint31/joint37
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30/joint31/joint37/joint38
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30/joint39
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint29/joint30/joint39/joint40
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint35
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint28/joint35/joint36
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint33
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint33/joint34
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint41
+        weight: 1
+      - path: pCube23/joint25/joint26/joint27/joint41/joint42
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/polySurface67
+        weight: 1
+      - path: pCylinder1/polySurface67/transform4
+        weight: 1
+      - path: pCylinder1/transform3
+        weight: 1
+      - path: polySurface63
+        weight: 1
+      - path: polySurface64
+        weight: 1
+      - path: polySurface65
+        weight: 1
+      - path: polySurface66
+        weight: 1
+      - path: polySurface68
+        weight: 1
+      - path: polySurface69
+        weight: 1
+      - path: polySurface70
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: 8ca4e861678d8b844a0126b69071b242
+timeCreated: 1437610649
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: chest
+    100002: Deer
+    100004: //RootNode
+    100006: FrontLeftFoot
+    100008: FrontLeftLegLower
+    100010: FrontLeftLegUpper
+    100012: FrontRightFoot
+    100014: FrontRightLegLower
+    100016: FrontRightLegUpper
+    100018: group7
+    100020: group8
+    100022: group8 1
+    100024: group9
+    100026: Head
+    100028: joint10
+    100030: joint11
+    100032: joint12
+    100034: joint13
+    100036: joint14
+    100038: joint15
+    100040: joint16
+    100042: joint17
+    100044: joint18
+    100046: joint19
+    100048: joint20
+    100050: joint21
+    100052: joint22
+    100054: joint23
+    100056: joint24
+    100058: joint3
+    100060: joint4
+    100062: joint5
+    100064: joint6
+    100066: joint7
+    100068: joint8
+    100070: joint9
+    100072: LeftEar
+    100074: maps:maps:locator1
+    100076: maps:maps:locator2
+    100078: maps:maps:locator3
+    100080: maps:maps:locator4
+    100082: mid1
+    100084: neck1
+    100086: neck2
+    100088: pCylinder10
+    100090: pCylinder10 1
+    100092: pCylinder10 2
+    100094: pCylinder10 3
+    100096: pCylinder11
+    100098: pCylinder11 1
+    100100: pCylinder11 2
+    100102: pCylinder11 3
+    100104: pCylinder2
+    100106: pCylinder2 1
+    100108: pCylinder2 2
+    100110: pCylinder2 3
+    100112: pCylinder4
+    100114: pCylinder4 1
+    100116: pCylinder4 2
+    100118: pCylinder4 3
+    100120: pCylinder5
+    100122: pCylinder5 1
+    100124: pCylinder5 2
+    100126: pCylinder5 3
+    100128: pCylinder6
+    100130: pCylinder6 1
+    100132: pCylinder6 2
+    100134: pCylinder6 3
+    100136: pCylinder7
+    100138: pCylinder7 1
+    100140: pCylinder7 2
+    100142: pCylinder7 3
+    100144: pCylinder8
+    100146: pCylinder8 1
+    100148: pCylinder8 2
+    100150: pCylinder8 3
+    100152: Rear
+    100154: RearLeftFoot
+    100156: RearLeftLegLower
+    100158: RearLeftLegUpper
+    100160: RearRightFoot
+    100162: RearRightLegLower
+    100164: RearRightLegUpper
+    100166: RightEar
+    400000: chest
+    400002: Deer
+    400004: //RootNode
+    400006: FrontLeftFoot
+    400008: FrontLeftLegLower
+    400010: FrontLeftLegUpper
+    400012: FrontRightFoot
+    400014: FrontRightLegLower
+    400016: FrontRightLegUpper
+    400018: group7
+    400020: group8
+    400022: group8 1
+    400024: group9
+    400026: Head
+    400028: joint10
+    400030: joint11
+    400032: joint12
+    400034: joint13
+    400036: joint14
+    400038: joint15
+    400040: joint16
+    400042: joint17
+    400044: joint18
+    400046: joint19
+    400048: joint20
+    400050: joint21
+    400052: joint22
+    400054: joint23
+    400056: joint24
+    400058: joint3
+    400060: joint4
+    400062: joint5
+    400064: joint6
+    400066: joint7
+    400068: joint8
+    400070: joint9
+    400072: LeftEar
+    400074: maps:maps:locator1
+    400076: maps:maps:locator2
+    400078: maps:maps:locator3
+    400080: maps:maps:locator4
+    400082: mid1
+    400084: neck1
+    400086: neck2
+    400088: pCylinder10
+    400090: pCylinder10 1
+    400092: pCylinder10 2
+    400094: pCylinder10 3
+    400096: pCylinder11
+    400098: pCylinder11 1
+    400100: pCylinder11 2
+    400102: pCylinder11 3
+    400104: pCylinder2
+    400106: pCylinder2 1
+    400108: pCylinder2 2
+    400110: pCylinder2 3
+    400112: pCylinder4
+    400114: pCylinder4 1
+    400116: pCylinder4 2
+    400118: pCylinder4 3
+    400120: pCylinder5
+    400122: pCylinder5 1
+    400124: pCylinder5 2
+    400126: pCylinder5 3
+    400128: pCylinder6
+    400130: pCylinder6 1
+    400132: pCylinder6 2
+    400134: pCylinder6 3
+    400136: pCylinder7
+    400138: pCylinder7 1
+    400140: pCylinder7 2
+    400142: pCylinder7 3
+    400144: pCylinder8
+    400146: pCylinder8 1
+    400148: pCylinder8 2
+    400150: pCylinder8 3
+    400152: Rear
+    400154: RearLeftFoot
+    400156: RearLeftLegLower
+    400158: RearLeftLegUpper
+    400160: RearRightFoot
+    400162: RearRightLegLower
+    400164: RearRightLegUpper
+    400166: RightEar
+    4300000: neck2
+    4300002: neck1
+    4300004: Head
+    4300006: pCylinder2
+    4300008: pCylinder4
+    4300010: pCylinder5
+    4300012: pCylinder6
+    4300014: pCylinder7
+    4300016: pCylinder8
+    4300018: pCylinder10
+    4300020: pCylinder11
+    4300022: pCylinder2
+    4300024: pCylinder4
+    4300026: pCylinder5
+    4300028: pCylinder6
+    4300030: pCylinder7
+    4300032: pCylinder8
+    4300034: pCylinder10
+    4300036: pCylinder11
+    4300038: pCylinder2
+    4300040: pCylinder4
+    4300042: pCylinder5
+    4300044: pCylinder6
+    4300046: pCylinder7
+    4300048: pCylinder8
+    4300050: pCylinder10
+    4300052: pCylinder11
+    4300054: pCylinder2
+    4300056: pCylinder4
+    4300058: pCylinder5
+    4300060: pCylinder6
+    4300062: pCylinder7
+    4300064: pCylinder8
+    4300066: pCylinder10
+    4300068: pCylinder11
+    4300070: chest
+    4300072: mid1
+    4300074: Rear
+    4300076: RearLeftFoot
+    4300078: RearLeftLegUpper
+    4300080: RearLeftLegLower
+    4300082: RearRightFoot
+    4300084: RearRightLegUpper
+    4300086: RearRightLegLower
+    4300088: FrontRightFoot
+    4300090: FrontRightLegUpper
+    4300092: FrontRightLegLower
+    4300094: FrontLeftFoot
+    4300096: FrontLeftLegUpper
+    4300098: FrontLeftLegLower
+    4300100: LeftEar
+    4300102: RightEar
+    7400000: DeerIdle
+    7400002: run
+    9500000: //RootNode
+    13700000: chest
+    13700002: FrontLeftFoot
+    13700004: FrontLeftLegLower
+    13700006: FrontLeftLegUpper
+    13700008: FrontRightFoot
+    13700010: FrontRightLegLower
+    13700012: FrontRightLegUpper
+    13700014: Head
+    13700016: LeftEar
+    13700018: mid1
+    13700020: neck1
+    13700022: neck2
+    13700024: pCylinder10
+    13700026: pCylinder10 1
+    13700028: pCylinder10 2
+    13700030: pCylinder10 3
+    13700032: pCylinder11
+    13700034: pCylinder11 1
+    13700036: pCylinder11 2
+    13700038: pCylinder11 3
+    13700040: pCylinder2
+    13700042: pCylinder2 1
+    13700044: pCylinder2 2
+    13700046: pCylinder2 3
+    13700048: pCylinder4
+    13700050: pCylinder4 1
+    13700052: pCylinder4 2
+    13700054: pCylinder4 3
+    13700056: pCylinder5
+    13700058: pCylinder5 1
+    13700060: pCylinder5 2
+    13700062: pCylinder5 3
+    13700064: pCylinder6
+    13700066: pCylinder6 1
+    13700068: pCylinder6 2
+    13700070: pCylinder6 3
+    13700072: pCylinder7
+    13700074: pCylinder7 1
+    13700076: pCylinder7 2
+    13700078: pCylinder7 3
+    13700080: pCylinder8
+    13700082: pCylinder8 1
+    13700084: pCylinder8 2
+    13700086: pCylinder8 3
+    13700088: Rear
+    13700090: RearLeftFoot
+    13700092: RearLeftLegLower
+    13700094: RearLeftLegUpper
+    13700096: RearRightFoot
+    13700098: RearRightLegLower
+    13700100: RearRightLegUpper
+    13700102: RightEar
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DeerIdle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Deer
+        weight: 1
+      - path: Deer/chest
+        weight: 1
+      - path: Deer/FrontLeftFoot
+        weight: 1
+      - path: Deer/FrontLeftLegLower
+        weight: 1
+      - path: Deer/FrontLeftLegUpper
+        weight: 1
+      - path: Deer/FrontRightFoot
+        weight: 1
+      - path: Deer/FrontRightLegLower
+        weight: 1
+      - path: Deer/FrontRightLegUpper
+        weight: 1
+      - path: Deer/Head
+        weight: 1
+      - path: Deer/Head/group7
+        weight: 1
+      - path: Deer/Head/group7/group8
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder2 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder4 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder5 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder6 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder7 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder8 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder10 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder11 2
+        weight: 1
+      - path: Deer/Head/group7/pCylinder2
+        weight: 1
+      - path: Deer/Head/group7/pCylinder4
+        weight: 1
+      - path: Deer/Head/group7/pCylinder5
+        weight: 1
+      - path: Deer/Head/group7/pCylinder6
+        weight: 1
+      - path: Deer/Head/group7/pCylinder7
+        weight: 1
+      - path: Deer/Head/group7/pCylinder8
+        weight: 1
+      - path: Deer/Head/group7/pCylinder10
+        weight: 1
+      - path: Deer/Head/group7/pCylinder11
+        weight: 1
+      - path: Deer/Head/group9
+        weight: 1
+      - path: Deer/Head/group9/group8 1
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder2 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder4 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder5 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder6 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder7 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder8 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder10 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder11 3
+        weight: 1
+      - path: Deer/Head/group9/pCylinder2 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder4 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder5 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder6 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder7 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder8 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder10 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder11 1
+        weight: 1
+      - path: Deer/LeftEar
+        weight: 1
+      - path: Deer/mid1
+        weight: 1
+      - path: Deer/neck1
+        weight: 1
+      - path: Deer/neck2
+        weight: 1
+      - path: Deer/Rear
+        weight: 1
+      - path: Deer/RearLeftFoot
+        weight: 1
+      - path: Deer/RearLeftLegLower
+        weight: 1
+      - path: Deer/RearLeftLegUpper
+        weight: 1
+      - path: Deer/RearRightFoot
+        weight: 1
+      - path: Deer/RearRightLegLower
+        weight: 1
+      - path: Deer/RearRightLegUpper
+        weight: 1
+      - path: Deer/RightEar
+        weight: 1
+      - path: joint10
+        weight: 1
+      - path: joint10/joint11
+        weight: 1
+      - path: joint10/joint11/joint12
+        weight: 1
+      - path: joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint10/joint18
+        weight: 1
+      - path: joint10/joint18/joint19
+        weight: 1
+      - path: joint10/joint18/joint19/joint20
+        weight: 1
+      - path: joint10/joint24
+        weight: 1
+      - path: joint10/joint24/joint3
+        weight: 1
+      - path: joint10/joint24/joint3/joint14
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6/joint7/joint9
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint15
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint15/joint16
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint21
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint21/joint22
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint21/joint22/joint23
+        weight: 1
+      - path: joint10/maps:maps:locator1
+        weight: 1
+      - path: joint10/maps:maps:locator2
+        weight: 1
+      - path: joint10/maps:maps:locator3
+        weight: 1
+      - path: joint10/maps:maps:locator4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 448
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Deer
+        weight: 1
+      - path: Deer/chest
+        weight: 1
+      - path: Deer/FrontLeftFoot
+        weight: 1
+      - path: Deer/FrontLeftLegLower
+        weight: 1
+      - path: Deer/FrontLeftLegUpper
+        weight: 1
+      - path: Deer/FrontRightFoot
+        weight: 1
+      - path: Deer/FrontRightLegLower
+        weight: 1
+      - path: Deer/FrontRightLegUpper
+        weight: 1
+      - path: Deer/Head
+        weight: 1
+      - path: Deer/Head/group7
+        weight: 1
+      - path: Deer/Head/group7/group8
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder2 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder4 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder5 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder6 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder7 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder8 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder10 2
+        weight: 1
+      - path: Deer/Head/group7/group8/pCylinder11 2
+        weight: 1
+      - path: Deer/Head/group7/pCylinder2
+        weight: 1
+      - path: Deer/Head/group7/pCylinder4
+        weight: 1
+      - path: Deer/Head/group7/pCylinder5
+        weight: 1
+      - path: Deer/Head/group7/pCylinder6
+        weight: 1
+      - path: Deer/Head/group7/pCylinder7
+        weight: 1
+      - path: Deer/Head/group7/pCylinder8
+        weight: 1
+      - path: Deer/Head/group7/pCylinder10
+        weight: 1
+      - path: Deer/Head/group7/pCylinder11
+        weight: 1
+      - path: Deer/Head/group9
+        weight: 1
+      - path: Deer/Head/group9/group8 1
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder2 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder4 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder5 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder6 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder7 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder8 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder10 3
+        weight: 1
+      - path: Deer/Head/group9/group8 1/pCylinder11 3
+        weight: 1
+      - path: Deer/Head/group9/pCylinder2 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder4 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder5 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder6 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder7 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder8 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder10 1
+        weight: 1
+      - path: Deer/Head/group9/pCylinder11 1
+        weight: 1
+      - path: Deer/LeftEar
+        weight: 1
+      - path: Deer/mid1
+        weight: 1
+      - path: Deer/neck1
+        weight: 1
+      - path: Deer/neck2
+        weight: 1
+      - path: Deer/Rear
+        weight: 1
+      - path: Deer/RearLeftFoot
+        weight: 1
+      - path: Deer/RearLeftLegLower
+        weight: 1
+      - path: Deer/RearLeftLegUpper
+        weight: 1
+      - path: Deer/RearRightFoot
+        weight: 1
+      - path: Deer/RearRightLegLower
+        weight: 1
+      - path: Deer/RearRightLegUpper
+        weight: 1
+      - path: Deer/RightEar
+        weight: 1
+      - path: joint10
+        weight: 1
+      - path: joint10/joint11
+        weight: 1
+      - path: joint10/joint11/joint12
+        weight: 1
+      - path: joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint10/joint18
+        weight: 1
+      - path: joint10/joint18/joint19
+        weight: 1
+      - path: joint10/joint18/joint19/joint20
+        weight: 1
+      - path: joint10/joint24
+        weight: 1
+      - path: joint10/joint24/joint3
+        weight: 1
+      - path: joint10/joint24/joint3/joint14
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint4/joint5/joint6/joint7/joint9
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint15
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint15/joint16
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint21
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint21/joint22
+        weight: 1
+      - path: joint10/joint24/joint3/joint14/joint21/joint22/joint23
+        weight: 1
+      - path: joint10/maps:maps:locator1
+        weight: 1
+      - path: joint10/maps:maps:locator2
+        weight: 1
+      - path: joint10/maps:maps:locator3
+        weight: 1
+      - path: joint10/maps:maps:locator4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

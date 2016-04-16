@@ -1,0 +1,1233 @@
+fileFormatVersion: 2
+guid: 3892c0b865175cb468bdce34056e06f8
+timeCreated: 1437449218
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BeakEnd
+    100002: Bird
+    100004: //RootNode
+    100006: centerTailFeaher
+    100008: chest
+    100010: egUpper
+    100012: foot
+    100014: foot 1
+    100016: group1
+    100018: group2
+    100020: group3
+    100022: group4
+    100024: group5
+    100026: head
+    100028: hip
+    100030: ikHandle1
+    100032: ikHandle2
+    100034: joint1
+    100036: joint2
+    100038: leftFeather1Base
+    100040: leftFeather1Tip
+    100042: leftFeather2Base
+    100044: leftFeather2Tip
+    100046: leftFeather2Tip 1
+    100048: leftFeather3Base
+    100050: leftFeather4Base
+    100052: leftFeather4Tip
+    100054: leftFoot
+    100056: leftFootTalon1
+    100058: leftFootTalon2
+    100060: leftFootTalon3
+    100062: leftFootTalon4
+    100064: leftFootToe1
+    100066: leftFootToe2
+    100068: leftFootToe3
+    100070: leftFootToe4
+    100072: LeftLegLower
+    100074: leftLegLower
+    100076: LeftLegLower1
+    100078: leftLegUpper
+    100080: leftLegUpper1
+    100082: leftTailFeaher1
+    100084: leftTailFeaher2
+    100086: leftWng
+    100088: locator1
+    100090: locator2
+    100092: lowerJaw
+    100094: neck
+    100096: pCone1
+    100098: pCube10
+    100100: pCube14
+    100102: polySurface19
+    100104: polySurface23
+    100106: polySurface24
+    100108: polySurface25
+    100110: polySurface26
+    100112: polySurface27
+    100114: polySurface28
+    100116: polySurface29
+    100118: polySurface3
+    100120: polySurface30
+    100122: polySurface39
+    100124: polySurface4
+    100126: polySurface40
+    100128: polySurface41
+    100130: polySurface42
+    100132: polySurface43
+    100134: polySurface44
+    100136: polySurface45
+    100138: polySurface46
+    100140: polySurface47
+    100142: polySurface48
+    100144: polySurface49
+    100146: polySurface50
+    100148: polySurface51
+    100150: polySurface52
+    100152: polySurface53
+    100154: polySurface54
+    100156: polySurface55
+    100158: polySurface56
+    100160: polySurface57
+    100162: polySurface58
+    100164: pSphere1
+    100166: rightFeather1Base
+    100168: rightFeather1Tip
+    100170: rightFeather2Base
+    100172: rightFeather2Tip
+    100174: rightFeather2Tip 1
+    100176: rightFeather3Base
+    100178: rightFeather4Base
+    100180: rightFeather4Tip
+    100182: rightFoot
+    100184: rightFootTalon1
+    100186: rightFootTalon2
+    100188: rightFootTalon3
+    100190: rightFootTalon4
+    100192: rightFootToe1
+    100194: rightFootToe2
+    100196: rightFootToe3
+    100198: rightFootToe4
+    100200: rightLegLower
+    100202: rightLegUpper
+    100204: rightTailFeaher1
+    100206: rightTailFeaher2
+    100208: rightWng
+    100210: Tail
+    100212: TailPar1
+    100214: talon1
+    100216: talon1 1
+    100218: talon2
+    100220: talon2 1
+    100222: talon3
+    100224: talon3 1
+    100226: talon4
+    100228: talon4 1
+    100230: toe1
+    100232: toe1 1
+    100234: toe2
+    100236: toe2 1
+    100238: toe3
+    100240: toe3 1
+    100242: toe4
+    100244: toe4 1
+    400000: BeakEnd
+    400002: Bird
+    400004: //RootNode
+    400006: centerTailFeaher
+    400008: chest
+    400010: egUpper
+    400012: foot
+    400014: foot 1
+    400016: group1
+    400018: group2
+    400020: group3
+    400022: group4
+    400024: group5
+    400026: head
+    400028: hip
+    400030: ikHandle1
+    400032: ikHandle2
+    400034: joint1
+    400036: joint2
+    400038: leftFeather1Base
+    400040: leftFeather1Tip
+    400042: leftFeather2Base
+    400044: leftFeather2Tip
+    400046: leftFeather2Tip 1
+    400048: leftFeather3Base
+    400050: leftFeather4Base
+    400052: leftFeather4Tip
+    400054: leftFoot
+    400056: leftFootTalon1
+    400058: leftFootTalon2
+    400060: leftFootTalon3
+    400062: leftFootTalon4
+    400064: leftFootToe1
+    400066: leftFootToe2
+    400068: leftFootToe3
+    400070: leftFootToe4
+    400072: LeftLegLower
+    400074: leftLegLower
+    400076: LeftLegLower1
+    400078: leftLegUpper
+    400080: leftLegUpper1
+    400082: leftTailFeaher1
+    400084: leftTailFeaher2
+    400086: leftWng
+    400088: locator1
+    400090: locator2
+    400092: lowerJaw
+    400094: neck
+    400096: pCone1
+    400098: pCube10
+    400100: pCube14
+    400102: polySurface19
+    400104: polySurface23
+    400106: polySurface24
+    400108: polySurface25
+    400110: polySurface26
+    400112: polySurface27
+    400114: polySurface28
+    400116: polySurface29
+    400118: polySurface3
+    400120: polySurface30
+    400122: polySurface39
+    400124: polySurface4
+    400126: polySurface40
+    400128: polySurface41
+    400130: polySurface42
+    400132: polySurface43
+    400134: polySurface44
+    400136: polySurface45
+    400138: polySurface46
+    400140: polySurface47
+    400142: polySurface48
+    400144: polySurface49
+    400146: polySurface50
+    400148: polySurface51
+    400150: polySurface52
+    400152: polySurface53
+    400154: polySurface54
+    400156: polySurface55
+    400158: polySurface56
+    400160: polySurface57
+    400162: polySurface58
+    400164: pSphere1
+    400166: rightFeather1Base
+    400168: rightFeather1Tip
+    400170: rightFeather2Base
+    400172: rightFeather2Tip
+    400174: rightFeather2Tip 1
+    400176: rightFeather3Base
+    400178: rightFeather4Base
+    400180: rightFeather4Tip
+    400182: rightFoot
+    400184: rightFootTalon1
+    400186: rightFootTalon2
+    400188: rightFootTalon3
+    400190: rightFootTalon4
+    400192: rightFootToe1
+    400194: rightFootToe2
+    400196: rightFootToe3
+    400198: rightFootToe4
+    400200: rightLegLower
+    400202: rightLegUpper
+    400204: rightTailFeaher1
+    400206: rightTailFeaher2
+    400208: rightWng
+    400210: Tail
+    400212: TailPar1
+    400214: talon1
+    400216: talon1 1
+    400218: talon2
+    400220: talon2 1
+    400222: talon3
+    400224: talon3 1
+    400226: talon4
+    400228: talon4 1
+    400230: toe1
+    400232: toe1 1
+    400234: toe2
+    400236: toe2 1
+    400238: toe3
+    400240: toe3 1
+    400242: toe4
+    400244: toe4 1
+    4300000: leftLegUpper1
+    4300002: LeftLegLower1
+    4300004: foot
+    4300006: toe4
+    4300008: talon4
+    4300010: talon3
+    4300012: toe3
+    4300014: toe1
+    4300016: talon1
+    4300018: toe2
+    4300020: talon2
+    4300022: leftLegUpper
+    4300024: LeftLegLower
+    4300026: foot
+    4300028: toe4
+    4300030: talon4
+    4300032: talon3
+    4300034: toe3
+    4300036: toe1
+    4300038: talon1
+    4300040: toe2
+    4300042: talon2
+    4300044: polySurface30
+    4300046: polySurface29
+    4300048: polySurface23
+    4300050: polySurface25
+    4300052: polySurface27
+    4300054: polySurface3
+    4300056: polySurface4
+    4300058: pSphere1
+    4300060: polySurface56
+    4300062: polySurface57
+    4300064: polySurface58
+    4300066: polySurface39
+    4300068: polySurface40
+    4300070: polySurface41
+    4300072: polySurface42
+    4300074: polySurface43
+    4300076: polySurface44
+    4300078: polySurface45
+    4300080: polySurface46
+    4300082: polySurface48
+    4300084: polySurface49
+    4300086: polySurface50
+    4300088: polySurface51
+    4300090: polySurface52
+    4300092: polySurface53
+    4300094: polySurface54
+    4300096: polySurface55
+    7400000: birdGlide
+    7400002: birdRight
+    7400004: birdLeft
+    9500000: //RootNode
+    13700000: foot
+    13700002: foot 1
+    13700004: LeftLegLower
+    13700006: LeftLegLower1
+    13700008: leftLegUpper
+    13700010: leftLegUpper1
+    13700012: polySurface23
+    13700014: polySurface25
+    13700016: polySurface27
+    13700018: polySurface29
+    13700020: polySurface3
+    13700022: polySurface30
+    13700024: polySurface39
+    13700026: polySurface4
+    13700028: polySurface40
+    13700030: polySurface41
+    13700032: polySurface42
+    13700034: polySurface43
+    13700036: polySurface44
+    13700038: polySurface45
+    13700040: polySurface46
+    13700042: polySurface48
+    13700044: polySurface49
+    13700046: polySurface50
+    13700048: polySurface51
+    13700050: polySurface52
+    13700052: polySurface53
+    13700054: polySurface54
+    13700056: polySurface55
+    13700058: polySurface56
+    13700060: polySurface57
+    13700062: polySurface58
+    13700064: pSphere1
+    13700066: talon1
+    13700068: talon1 1
+    13700070: talon2
+    13700072: talon2 1
+    13700074: talon3
+    13700076: talon3 1
+    13700078: talon4
+    13700080: talon4 1
+    13700082: toe1
+    13700084: toe1 1
+    13700086: toe2
+    13700088: toe2 1
+    13700090: toe3
+    13700092: toe3 1
+    13700094: toe4
+    13700096: toe4 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: birdGlide
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bird
+        weight: 1
+      - path: Bird/group3
+        weight: 1
+      - path: Bird/group3/group1
+        weight: 1
+      - path: Bird/group3/group1/foot
+        weight: 1
+      - path: Bird/group3/group1/talon1
+        weight: 1
+      - path: Bird/group3/group1/talon2
+        weight: 1
+      - path: Bird/group3/group1/talon3
+        weight: 1
+      - path: Bird/group3/group1/talon4
+        weight: 1
+      - path: Bird/group3/group1/toe1
+        weight: 1
+      - path: Bird/group3/group1/toe2
+        weight: 1
+      - path: Bird/group3/group1/toe3
+        weight: 1
+      - path: Bird/group3/group1/toe4
+        weight: 1
+      - path: Bird/group3/LeftLegLower
+        weight: 1
+      - path: Bird/group3/leftLegUpper
+        weight: 1
+      - path: Bird/group4
+        weight: 1
+      - path: Bird/group4/group2
+        weight: 1
+      - path: Bird/group4/group2/foot 1
+        weight: 1
+      - path: Bird/group4/group2/talon1 1
+        weight: 1
+      - path: Bird/group4/group2/talon2 1
+        weight: 1
+      - path: Bird/group4/group2/talon3 1
+        weight: 1
+      - path: Bird/group4/group2/talon4 1
+        weight: 1
+      - path: Bird/group4/group2/toe1 1
+        weight: 1
+      - path: Bird/group4/group2/toe2 1
+        weight: 1
+      - path: Bird/group4/group2/toe3 1
+        weight: 1
+      - path: Bird/group4/group2/toe4 1
+        weight: 1
+      - path: Bird/group4/LeftLegLower1
+        weight: 1
+      - path: Bird/group4/leftLegUpper1
+        weight: 1
+      - path: Bird/pCone1
+        weight: 1
+      - path: Bird/pCone1/polySurface3
+        weight: 1
+      - path: Bird/pCone1/polySurface4
+        weight: 1
+      - path: Bird/pCube10
+        weight: 1
+      - path: Bird/pCube10/group5
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface23
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface25
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface27
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface29
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface30
+        weight: 1
+      - path: Bird/pCube10/polySurface24
+        weight: 1
+      - path: Bird/pCube10/polySurface24/polySurface26
+        weight: 1
+      - path: Bird/pCube10/polySurface24/polySurface26/polySurface28
+        weight: 1
+      - path: Bird/pCube14
+        weight: 1
+      - path: Bird/pCube14/polySurface39
+        weight: 1
+      - path: Bird/pCube14/polySurface40
+        weight: 1
+      - path: Bird/pCube14/polySurface41
+        weight: 1
+      - path: Bird/pCube14/polySurface42
+        weight: 1
+      - path: Bird/pCube14/polySurface43
+        weight: 1
+      - path: Bird/pCube14/polySurface44
+        weight: 1
+      - path: Bird/pCube14/polySurface45
+        weight: 1
+      - path: Bird/pCube14/polySurface46
+        weight: 1
+      - path: Bird/pCube14/polySurface47
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface48
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface49
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface50
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface51
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface52
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface53
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface54
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface55
+        weight: 1
+      - path: Bird/polySurface19
+        weight: 1
+      - path: Bird/polySurface19/polySurface56
+        weight: 1
+      - path: Bird/polySurface19/polySurface57
+        weight: 1
+      - path: Bird/polySurface19/polySurface58
+        weight: 1
+      - path: Bird/pSphere1
+        weight: 1
+      - path: hip
+        weight: 1
+      - path: hip/chest
+        weight: 1
+      - path: hip/chest/joint1
+        weight: 1
+      - path: hip/chest/joint1/rightWng
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather1Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather1Base/rightFeather1Tip
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather2Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather2Base/rightFeather2Tip
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather3Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather3Base/rightFeather2Tip 1
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather4Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather4Base/rightFeather4Tip
+        weight: 1
+      - path: hip/chest/joint2
+        weight: 1
+      - path: hip/chest/joint2/leftWng
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather1Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather1Base/leftFeather1Tip
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather2Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather2Base/leftFeather2Tip
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather3Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather3Base/leftFeather2Tip 1
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather4Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather4Base/leftFeather4Tip
+        weight: 1
+      - path: hip/chest/neck
+        weight: 1
+      - path: hip/chest/neck/head
+        weight: 1
+      - path: hip/chest/neck/head/lowerJaw
+        weight: 1
+      - path: hip/chest/neck/head/lowerJaw/BeakEnd
+        weight: 1
+      - path: hip/egUpper
+        weight: 1
+      - path: hip/egUpper/leftLegLower
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe1
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe1/leftFootTalon1
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe2
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe2/leftFootTalon2
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe3
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe3/leftFootTalon3
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe4
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe4/leftFootTalon4
+        weight: 1
+      - path: hip/ikHandle1
+        weight: 1
+      - path: hip/ikHandle2
+        weight: 1
+      - path: hip/locator1
+        weight: 1
+      - path: hip/locator2
+        weight: 1
+      - path: hip/rightLegUpper
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe1
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe1/rightFootTalon1
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe2
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe2/rightFootTalon2
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe3
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe3/rightFootTalon3
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe4
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe4/rightFootTalon4
+        weight: 1
+      - path: hip/TailPar1
+        weight: 1
+      - path: hip/TailPar1/Tail
+        weight: 1
+      - path: hip/TailPar1/Tail/centerTailFeaher
+        weight: 1
+      - path: hip/TailPar1/Tail/leftTailFeaher1
+        weight: 1
+      - path: hip/TailPar1/Tail/leftTailFeaher1/leftTailFeaher2
+        weight: 1
+      - path: hip/TailPar1/Tail/rightTailFeaher1
+        weight: 1
+      - path: hip/TailPar1/Tail/rightTailFeaher1/rightTailFeaher2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: birdRight
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 189
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bird
+        weight: 1
+      - path: Bird/group3
+        weight: 1
+      - path: Bird/group3/group1
+        weight: 1
+      - path: Bird/group3/group1/foot
+        weight: 1
+      - path: Bird/group3/group1/talon1
+        weight: 1
+      - path: Bird/group3/group1/talon2
+        weight: 1
+      - path: Bird/group3/group1/talon3
+        weight: 1
+      - path: Bird/group3/group1/talon4
+        weight: 1
+      - path: Bird/group3/group1/toe1
+        weight: 1
+      - path: Bird/group3/group1/toe2
+        weight: 1
+      - path: Bird/group3/group1/toe3
+        weight: 1
+      - path: Bird/group3/group1/toe4
+        weight: 1
+      - path: Bird/group3/LeftLegLower
+        weight: 1
+      - path: Bird/group3/leftLegUpper
+        weight: 1
+      - path: Bird/group4
+        weight: 1
+      - path: Bird/group4/group2
+        weight: 1
+      - path: Bird/group4/group2/foot 1
+        weight: 1
+      - path: Bird/group4/group2/talon1 1
+        weight: 1
+      - path: Bird/group4/group2/talon2 1
+        weight: 1
+      - path: Bird/group4/group2/talon3 1
+        weight: 1
+      - path: Bird/group4/group2/talon4 1
+        weight: 1
+      - path: Bird/group4/group2/toe1 1
+        weight: 1
+      - path: Bird/group4/group2/toe2 1
+        weight: 1
+      - path: Bird/group4/group2/toe3 1
+        weight: 1
+      - path: Bird/group4/group2/toe4 1
+        weight: 1
+      - path: Bird/group4/LeftLegLower1
+        weight: 1
+      - path: Bird/group4/leftLegUpper1
+        weight: 1
+      - path: Bird/pCone1
+        weight: 1
+      - path: Bird/pCone1/polySurface3
+        weight: 1
+      - path: Bird/pCone1/polySurface4
+        weight: 1
+      - path: Bird/pCube10
+        weight: 1
+      - path: Bird/pCube10/group5
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface23
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface25
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface27
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface29
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface30
+        weight: 1
+      - path: Bird/pCube10/polySurface24
+        weight: 1
+      - path: Bird/pCube10/polySurface24/polySurface26
+        weight: 1
+      - path: Bird/pCube10/polySurface24/polySurface26/polySurface28
+        weight: 1
+      - path: Bird/pCube14
+        weight: 1
+      - path: Bird/pCube14/polySurface39
+        weight: 1
+      - path: Bird/pCube14/polySurface40
+        weight: 1
+      - path: Bird/pCube14/polySurface41
+        weight: 1
+      - path: Bird/pCube14/polySurface42
+        weight: 1
+      - path: Bird/pCube14/polySurface43
+        weight: 1
+      - path: Bird/pCube14/polySurface44
+        weight: 1
+      - path: Bird/pCube14/polySurface45
+        weight: 1
+      - path: Bird/pCube14/polySurface46
+        weight: 1
+      - path: Bird/pCube14/polySurface47
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface48
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface49
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface50
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface51
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface52
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface53
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface54
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface55
+        weight: 1
+      - path: Bird/polySurface19
+        weight: 1
+      - path: Bird/polySurface19/polySurface56
+        weight: 1
+      - path: Bird/polySurface19/polySurface57
+        weight: 1
+      - path: Bird/polySurface19/polySurface58
+        weight: 1
+      - path: Bird/pSphere1
+        weight: 1
+      - path: hip
+        weight: 1
+      - path: hip/chest
+        weight: 1
+      - path: hip/chest/joint1
+        weight: 1
+      - path: hip/chest/joint1/rightWng
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather1Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather1Base/rightFeather1Tip
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather2Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather2Base/rightFeather2Tip
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather3Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather3Base/rightFeather2Tip 1
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather4Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather4Base/rightFeather4Tip
+        weight: 1
+      - path: hip/chest/joint2
+        weight: 1
+      - path: hip/chest/joint2/leftWng
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather1Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather1Base/leftFeather1Tip
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather2Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather2Base/leftFeather2Tip
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather3Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather3Base/leftFeather2Tip 1
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather4Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather4Base/leftFeather4Tip
+        weight: 1
+      - path: hip/chest/neck
+        weight: 1
+      - path: hip/chest/neck/head
+        weight: 1
+      - path: hip/chest/neck/head/lowerJaw
+        weight: 1
+      - path: hip/chest/neck/head/lowerJaw/BeakEnd
+        weight: 1
+      - path: hip/egUpper
+        weight: 1
+      - path: hip/egUpper/leftLegLower
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe1
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe1/leftFootTalon1
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe2
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe2/leftFootTalon2
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe3
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe3/leftFootTalon3
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe4
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe4/leftFootTalon4
+        weight: 1
+      - path: hip/ikHandle1
+        weight: 1
+      - path: hip/ikHandle2
+        weight: 1
+      - path: hip/locator1
+        weight: 1
+      - path: hip/locator2
+        weight: 1
+      - path: hip/rightLegUpper
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe1
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe1/rightFootTalon1
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe2
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe2/rightFootTalon2
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe3
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe3/rightFootTalon3
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe4
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe4/rightFootTalon4
+        weight: 1
+      - path: hip/TailPar1
+        weight: 1
+      - path: hip/TailPar1/Tail
+        weight: 1
+      - path: hip/TailPar1/Tail/centerTailFeaher
+        weight: 1
+      - path: hip/TailPar1/Tail/leftTailFeaher1
+        weight: 1
+      - path: hip/TailPar1/Tail/leftTailFeaher1/leftTailFeaher2
+        weight: 1
+      - path: hip/TailPar1/Tail/rightTailFeaher1
+        weight: 1
+      - path: hip/TailPar1/Tail/rightTailFeaher1/rightTailFeaher2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: birdLeft
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 259
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bird
+        weight: 1
+      - path: Bird/group3
+        weight: 1
+      - path: Bird/group3/group1
+        weight: 1
+      - path: Bird/group3/group1/foot
+        weight: 1
+      - path: Bird/group3/group1/talon1
+        weight: 1
+      - path: Bird/group3/group1/talon2
+        weight: 1
+      - path: Bird/group3/group1/talon3
+        weight: 1
+      - path: Bird/group3/group1/talon4
+        weight: 1
+      - path: Bird/group3/group1/toe1
+        weight: 1
+      - path: Bird/group3/group1/toe2
+        weight: 1
+      - path: Bird/group3/group1/toe3
+        weight: 1
+      - path: Bird/group3/group1/toe4
+        weight: 1
+      - path: Bird/group3/LeftLegLower
+        weight: 1
+      - path: Bird/group3/leftLegUpper
+        weight: 1
+      - path: Bird/group4
+        weight: 1
+      - path: Bird/group4/group2
+        weight: 1
+      - path: Bird/group4/group2/foot 1
+        weight: 1
+      - path: Bird/group4/group2/talon1 1
+        weight: 1
+      - path: Bird/group4/group2/talon2 1
+        weight: 1
+      - path: Bird/group4/group2/talon3 1
+        weight: 1
+      - path: Bird/group4/group2/talon4 1
+        weight: 1
+      - path: Bird/group4/group2/toe1 1
+        weight: 1
+      - path: Bird/group4/group2/toe2 1
+        weight: 1
+      - path: Bird/group4/group2/toe3 1
+        weight: 1
+      - path: Bird/group4/group2/toe4 1
+        weight: 1
+      - path: Bird/group4/LeftLegLower1
+        weight: 1
+      - path: Bird/group4/leftLegUpper1
+        weight: 1
+      - path: Bird/pCone1
+        weight: 1
+      - path: Bird/pCone1/polySurface3
+        weight: 1
+      - path: Bird/pCone1/polySurface4
+        weight: 1
+      - path: Bird/pCube10
+        weight: 1
+      - path: Bird/pCube10/group5
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface23
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface25
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface27
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface29
+        weight: 1
+      - path: Bird/pCube10/group5/polySurface30
+        weight: 1
+      - path: Bird/pCube10/polySurface24
+        weight: 1
+      - path: Bird/pCube10/polySurface24/polySurface26
+        weight: 1
+      - path: Bird/pCube10/polySurface24/polySurface26/polySurface28
+        weight: 1
+      - path: Bird/pCube14
+        weight: 1
+      - path: Bird/pCube14/polySurface39
+        weight: 1
+      - path: Bird/pCube14/polySurface40
+        weight: 1
+      - path: Bird/pCube14/polySurface41
+        weight: 1
+      - path: Bird/pCube14/polySurface42
+        weight: 1
+      - path: Bird/pCube14/polySurface43
+        weight: 1
+      - path: Bird/pCube14/polySurface44
+        weight: 1
+      - path: Bird/pCube14/polySurface45
+        weight: 1
+      - path: Bird/pCube14/polySurface46
+        weight: 1
+      - path: Bird/pCube14/polySurface47
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface48
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface49
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface50
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface51
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface52
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface53
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface54
+        weight: 1
+      - path: Bird/pCube14/polySurface47/polySurface55
+        weight: 1
+      - path: Bird/polySurface19
+        weight: 1
+      - path: Bird/polySurface19/polySurface56
+        weight: 1
+      - path: Bird/polySurface19/polySurface57
+        weight: 1
+      - path: Bird/polySurface19/polySurface58
+        weight: 1
+      - path: Bird/pSphere1
+        weight: 1
+      - path: hip
+        weight: 1
+      - path: hip/chest
+        weight: 1
+      - path: hip/chest/joint1
+        weight: 1
+      - path: hip/chest/joint1/rightWng
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather1Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather1Base/rightFeather1Tip
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather2Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather2Base/rightFeather2Tip
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather3Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather3Base/rightFeather2Tip 1
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather4Base
+        weight: 1
+      - path: hip/chest/joint1/rightWng/rightFeather4Base/rightFeather4Tip
+        weight: 1
+      - path: hip/chest/joint2
+        weight: 1
+      - path: hip/chest/joint2/leftWng
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather1Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather1Base/leftFeather1Tip
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather2Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather2Base/leftFeather2Tip
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather3Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather3Base/leftFeather2Tip 1
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather4Base
+        weight: 1
+      - path: hip/chest/joint2/leftWng/leftFeather4Base/leftFeather4Tip
+        weight: 1
+      - path: hip/chest/neck
+        weight: 1
+      - path: hip/chest/neck/head
+        weight: 1
+      - path: hip/chest/neck/head/lowerJaw
+        weight: 1
+      - path: hip/chest/neck/head/lowerJaw/BeakEnd
+        weight: 1
+      - path: hip/egUpper
+        weight: 1
+      - path: hip/egUpper/leftLegLower
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe1
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe1/leftFootTalon1
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe2
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe2/leftFootTalon2
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe3
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe3/leftFootTalon3
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe4
+        weight: 1
+      - path: hip/egUpper/leftLegLower/leftFoot/leftFootToe4/leftFootTalon4
+        weight: 1
+      - path: hip/ikHandle1
+        weight: 1
+      - path: hip/ikHandle2
+        weight: 1
+      - path: hip/locator1
+        weight: 1
+      - path: hip/locator2
+        weight: 1
+      - path: hip/rightLegUpper
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe1
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe1/rightFootTalon1
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe2
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe2/rightFootTalon2
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe3
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe3/rightFootTalon3
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe4
+        weight: 1
+      - path: hip/rightLegUpper/rightLegLower/rightFoot/rightFootToe4/rightFootTalon4
+        weight: 1
+      - path: hip/TailPar1
+        weight: 1
+      - path: hip/TailPar1/Tail
+        weight: 1
+      - path: hip/TailPar1/Tail/centerTailFeaher
+        weight: 1
+      - path: hip/TailPar1/Tail/leftTailFeaher1
+        weight: 1
+      - path: hip/TailPar1/Tail/leftTailFeaher1/leftTailFeaher2
+        weight: 1
+      - path: hip/TailPar1/Tail/rightTailFeaher1
+        weight: 1
+      - path: hip/TailPar1/Tail/rightTailFeaher1/rightTailFeaher2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

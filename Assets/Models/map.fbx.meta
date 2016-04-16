@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 6ecccd41e1c2829429e60dd18c19004a
+timeCreated: 1437428176
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: maps:maps:polySurface1
+    100004: maps:maps:polySurface10
+    100006: maps:maps:polySurface11
+    100008: maps:maps:polySurface12
+    100010: maps:maps:polySurface13
+    100012: maps:maps:polySurface14
+    100014: maps:maps:polySurface15
+    100016: maps:maps:polySurface16
+    100018: maps:maps:polySurface17
+    100020: maps:maps:polySurface2
+    100022: maps:maps:polySurface3
+    100024: maps:maps:polySurface4
+    100026: maps:maps:polySurface5
+    100028: maps:maps:polySurface6
+    100030: maps:maps:polySurface7
+    100032: maps:maps:polySurface8
+    100034: maps:maps:polySurface9
+    100036: maps:maps:transform1
+    400000: //RootNode
+    400002: maps:maps:polySurface1
+    400004: maps:maps:polySurface10
+    400006: maps:maps:polySurface11
+    400008: maps:maps:polySurface12
+    400010: maps:maps:polySurface13
+    400012: maps:maps:polySurface14
+    400014: maps:maps:polySurface15
+    400016: maps:maps:polySurface16
+    400018: maps:maps:polySurface17
+    400020: maps:maps:polySurface2
+    400022: maps:maps:polySurface3
+    400024: maps:maps:polySurface4
+    400026: maps:maps:polySurface5
+    400028: maps:maps:polySurface6
+    400030: maps:maps:polySurface7
+    400032: maps:maps:polySurface8
+    400034: maps:maps:polySurface9
+    400036: maps:maps:transform1
+    2300000: maps:maps:polySurface1
+    2300002: maps:maps:polySurface10
+    2300004: maps:maps:polySurface11
+    2300006: maps:maps:polySurface12
+    2300008: maps:maps:polySurface13
+    2300010: maps:maps:polySurface14
+    2300012: maps:maps:polySurface15
+    2300014: maps:maps:polySurface16
+    2300016: maps:maps:polySurface17
+    2300018: maps:maps:polySurface2
+    2300020: maps:maps:polySurface3
+    2300022: maps:maps:polySurface4
+    2300024: maps:maps:polySurface5
+    2300026: maps:maps:polySurface6
+    2300028: maps:maps:polySurface7
+    2300030: maps:maps:polySurface8
+    2300032: maps:maps:polySurface9
+    3300000: maps:maps:polySurface1
+    3300002: maps:maps:polySurface10
+    3300004: maps:maps:polySurface11
+    3300006: maps:maps:polySurface12
+    3300008: maps:maps:polySurface13
+    3300010: maps:maps:polySurface14
+    3300012: maps:maps:polySurface15
+    3300014: maps:maps:polySurface16
+    3300016: maps:maps:polySurface17
+    3300018: maps:maps:polySurface2
+    3300020: maps:maps:polySurface3
+    3300022: maps:maps:polySurface4
+    3300024: maps:maps:polySurface5
+    3300026: maps:maps:polySurface6
+    3300028: maps:maps:polySurface7
+    3300030: maps:maps:polySurface8
+    3300032: maps:maps:polySurface9
+    4300000: maps:maps:polySurface1
+    4300002: maps:maps:polySurface2
+    4300004: maps:maps:polySurface3
+    4300006: maps:maps:polySurface4
+    4300008: maps:maps:polySurface5
+    4300010: maps:maps:polySurface6
+    4300012: maps:maps:polySurface7
+    4300014: maps:maps:polySurface8
+    4300016: maps:maps:polySurface9
+    4300018: maps:maps:polySurface10
+    4300020: maps:maps:polySurface11
+    4300022: maps:maps:polySurface12
+    4300024: maps:maps:polySurface13
+    4300026: maps:maps:polySurface14
+    4300028: maps:maps:polySurface15
+    4300030: maps:maps:polySurface16
+    4300032: maps:maps:polySurface17
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

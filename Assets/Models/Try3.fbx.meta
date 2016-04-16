@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: 0fe53c90ef34f0a45adbb240fd7c4556
+timeCreated: 1437456730
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bone
+    100002: bone15
+    100004: bone16
+    100006: bone17
+    100008: bone18
+    100010: bone19
+    100012: bone2
+    100014: bone20
+    100016: bone21
+    100018: bone22
+    100020: bone24
+    100022: bone26
+    100024: bone28
+    100026: bone30
+    100028: bone32
+    100030: bone34
+    100032: bone35
+    100034: bone36
+    100036: bone37
+    100038: bone38
+    100040: bone39
+    100042: bone4
+    100044: bone40
+    100046: bone41
+    100048: bone42
+    100050: bone6
+    100052: bone8
+    100054: circle
+    100056: circle1
+    100058: eff
+    100060: eff10
+    100062: eff3
+    100064: eff4
+    100066: eff6
+    100068: eff7
+    100070: eff8
+    100072: eff9
+    100074: Geo_Mabdomen1
+    100076: Geo_MarmL1
+    100078: Geo_MarmL2
+    100080: Geo_MFootL2
+    100082: Geo_MFootL3
+    100084: Geo_MhandL1
+    100086: Geo_MhandL2
+    100088: Geo_Mhead1
+    100090: Geo_Mhead2
+    100092: Geo_Mhips1
+    100094: Geo_MlegsL1
+    100096: Geo_MlegsL2
+    100098: Geo_Mneck1
+    100100: Geo_MshinL1
+    100102: Geo_MshinL2
+    100104: Geo_MshouldL1
+    100106: Geo_MshouldL2
+    100108: Geo_Mtorso1
+    100110: GeoMtail
+    100112: null
+    100114: null1
+    100116: root
+    100118: root10
+    100120: root3
+    100122: root4
+    100124: root6
+    100126: root7
+    100128: root8
+    100130: root9
+    100132: square
+    100134: square1
+    100136: //RootNode
+    400000: bone
+    400002: bone15
+    400004: bone16
+    400006: bone17
+    400008: bone18
+    400010: bone19
+    400012: bone2
+    400014: bone20
+    400016: bone21
+    400018: bone22
+    400020: bone24
+    400022: bone26
+    400024: bone28
+    400026: bone30
+    400028: bone32
+    400030: bone34
+    400032: bone35
+    400034: bone36
+    400036: bone37
+    400038: bone38
+    400040: bone39
+    400042: bone4
+    400044: bone40
+    400046: bone41
+    400048: bone42
+    400050: bone6
+    400052: bone8
+    400054: circle
+    400056: circle1
+    400058: eff
+    400060: eff10
+    400062: eff3
+    400064: eff4
+    400066: eff6
+    400068: eff7
+    400070: eff8
+    400072: eff9
+    400074: Geo_Mabdomen1
+    400076: Geo_MarmL1
+    400078: Geo_MarmL2
+    400080: Geo_MFootL2
+    400082: Geo_MFootL3
+    400084: Geo_MhandL1
+    400086: Geo_MhandL2
+    400088: Geo_Mhead1
+    400090: Geo_Mhead2
+    400092: Geo_Mhips1
+    400094: Geo_MlegsL1
+    400096: Geo_MlegsL2
+    400098: Geo_Mneck1
+    400100: Geo_MshinL1
+    400102: Geo_MshinL2
+    400104: Geo_MshouldL1
+    400106: Geo_MshouldL2
+    400108: Geo_Mtorso1
+    400110: GeoMtail
+    400112: null
+    400114: null1
+    400116: root
+    400118: root10
+    400120: root3
+    400122: root4
+    400124: root6
+    400126: root7
+    400128: root8
+    400130: root9
+    400132: square
+    400134: square1
+    400136: //RootNode
+    4300000: Geo_Mhips1
+    4300002: Geo_MlegsL1
+    4300004: Geo_MshinL1
+    4300006: Geo_MFootL3
+    4300008: Geo_Mabdomen1
+    4300010: Geo_Mtorso1
+    4300012: Geo_Mneck1
+    4300014: Geo_Mhead1
+    4300016: Geo_Mhead2
+    4300018: Geo_MshouldL1
+    4300020: Geo_MarmL1
+    4300022: Geo_MhandL1
+    4300024: Geo_MshouldL2
+    4300026: Geo_MarmL2
+    4300028: Geo_MhandL2
+    4300030: Geo_MlegsL2
+    4300032: Geo_MshinL2
+    4300034: Geo_MFootL2
+    4300036: GeoMtail
+    7400000: happy
+    9500000: //RootNode
+    13700000: Geo_Mabdomen1
+    13700002: Geo_MarmL1
+    13700004: Geo_MarmL2
+    13700006: Geo_MFootL2
+    13700008: Geo_MFootL3
+    13700010: Geo_MhandL1
+    13700012: Geo_MhandL2
+    13700014: Geo_Mhead1
+    13700016: Geo_Mhead2
+    13700018: Geo_Mhips1
+    13700020: Geo_MlegsL1
+    13700022: Geo_MlegsL2
+    13700024: Geo_Mneck1
+    13700026: Geo_MshinL1
+    13700028: Geo_MshinL2
+    13700030: Geo_MshouldL1
+    13700032: Geo_MshouldL2
+    13700034: Geo_Mtorso1
+    13700036: GeoMtail
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: happy
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Mhips1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_Mneck1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_Mneck1/Geo_Mhead1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_Mneck1/Geo_Mhead2
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_MshouldL1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_MshouldL1/Geo_MarmL1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_MshouldL1/Geo_MarmL1/Geo_MhandL1
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_MshouldL2
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_MshouldL2/Geo_MarmL2
+        weight: 1
+      - path: Geo_Mhips1/Geo_Mabdomen1/Geo_Mtorso1/Geo_MshouldL2/Geo_MarmL2/Geo_MhandL2
+        weight: 1
+      - path: Geo_Mhips1/Geo_MlegsL1
+        weight: 1
+      - path: Geo_Mhips1/Geo_MlegsL1/Geo_MshinL1
+        weight: 1
+      - path: Geo_Mhips1/Geo_MlegsL1/Geo_MshinL1/Geo_MFootL3
+        weight: 1
+      - path: Geo_Mhips1/Geo_MlegsL2
+        weight: 1
+      - path: Geo_Mhips1/Geo_MlegsL2/Geo_MshinL2
+        weight: 1
+      - path: Geo_Mhips1/Geo_MlegsL2/Geo_MshinL2/Geo_MFootL2
+        weight: 1
+      - path: Geo_Mhips1/GeoMtail
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/bone
+        weight: 1
+      - path: root/bone/bone2
+        weight: 1
+      - path: root/bone/bone2/bone4
+        weight: 1
+      - path: root/bone/bone2/bone4/bone6
+        weight: 1
+      - path: root/bone/bone2/bone4/bone6/bone8
+        weight: 1
+      - path: root/bone/bone2/bone4/bone6/bone8/eff
+        weight: 1
+      - path: root/bone/bone2/bone4/root3
+        weight: 1
+      - path: root/bone/bone2/bone4/root3/bone15
+        weight: 1
+      - path: root/bone/bone2/bone4/root3/bone15/bone17
+        weight: 1
+      - path: root/bone/bone2/bone4/root3/bone15/bone17/bone19
+        weight: 1
+      - path: root/bone/bone2/bone4/root3/bone15/bone17/bone19/bone21
+        weight: 1
+      - path: root/bone/bone2/bone4/root3/bone15/bone17/bone19/bone21/eff3
+        weight: 1
+      - path: root/bone/bone2/bone4/root4
+        weight: 1
+      - path: root/bone/bone2/bone4/root4/bone16
+        weight: 1
+      - path: root/bone/bone2/bone4/root4/bone16/bone18
+        weight: 1
+      - path: root/bone/bone2/bone4/root4/bone16/bone18/bone20
+        weight: 1
+      - path: root/bone/bone2/bone4/root4/bone16/bone18/bone20/bone22
+        weight: 1
+      - path: root/bone/bone2/bone4/root4/bone16/bone18/bone20/bone22/eff4
+        weight: 1
+      - path: root/bone/root6
+        weight: 1
+      - path: root/bone/root6/bone24
+        weight: 1
+      - path: root/bone/root6/bone24/bone26
+        weight: 1
+      - path: root/bone/root6/bone24/bone26/bone28
+        weight: 1
+      - path: root/bone/root6/bone24/bone26/bone28/bone30
+        weight: 1
+      - path: root/bone/root6/bone24/bone26/bone28/bone30/bone32
+        weight: 1
+      - path: root/bone/root6/bone24/bone26/bone28/bone30/bone32/bone34
+        weight: 1
+      - path: root/bone/root6/bone24/bone26/bone28/bone30/bone32/bone34/eff6
+        weight: 1
+      - path: root/bone/root7
+        weight: 1
+      - path: root/bone/root7/bone35
+        weight: 1
+      - path: root/bone/root7/bone35/bone36
+        weight: 1
+      - path: root/bone/root7/bone35/bone36/eff7
+        weight: 1
+      - path: root/bone/root7/bone35/bone36/root8
+        weight: 1
+      - path: root/bone/root7/bone35/bone36/root8/bone37
+        weight: 1
+      - path: root/bone/root7/bone35/bone36/root8/bone37/bone38
+        weight: 1
+      - path: root/bone/root7/bone35/bone36/root8/bone37/bone38/eff8
+        weight: 1
+      - path: root/bone/root9
+        weight: 1
+      - path: root/bone/root9/bone39
+        weight: 1
+      - path: root/bone/root9/bone39/bone40
+        weight: 1
+      - path: root/bone/root9/bone39/bone40/eff9
+        weight: 1
+      - path: root/bone/root9/bone39/bone40/root10
+        weight: 1
+      - path: root/bone/root9/bone39/bone40/root10/bone41
+        weight: 1
+      - path: root/bone/root9/bone39/bone40/root10/bone41/bone42
+        weight: 1
+      - path: root/bone/root9/bone39/bone40/root10/bone41/bone42/eff10
+        weight: 1
+      - path: square
+        weight: 1
+      - path: square/circle
+        weight: 1
+      - path: square/circle/null1
+        weight: 1
+      - path: square1
+        weight: 1
+      - path: square1/circle1
+        weight: 1
+      - path: square1/circle1/null
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
