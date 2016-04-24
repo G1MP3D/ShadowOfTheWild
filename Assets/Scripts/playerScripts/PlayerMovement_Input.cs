@@ -43,6 +43,7 @@ public class PlayerMovement_Input : MonoBehaviour
     float rotationX = 0F;
     float rotationY = 0F;
     public GameObject camMain;
+    public GameObject empty;
     public bool camRotateCheck;
     //public bool sitting;
 
@@ -52,6 +53,7 @@ public class PlayerMovement_Input : MonoBehaviour
 	void Start () 
     {
         camMain = GameObject.Find("Main Camera");
+        empty = GameObject.Find("Empty");
         Debug.Log("Camera:" + camMain);
         originalRotation = transform.localRotation;
         originalCamRotation = camMain.transform.localRotation;
@@ -122,7 +124,7 @@ public class PlayerMovement_Input : MonoBehaviour
             Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
 
             transform.localRotation = originalRotation * xQuaternion;
-            camMain.transform.localRotation = originalCamRotation * yQuaternion;
+            empty.transform.localRotation = originalCamRotation * yQuaternion;
         }
         else if (axes == RotationAxes.MouseX)
         {

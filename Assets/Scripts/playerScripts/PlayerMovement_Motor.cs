@@ -62,6 +62,7 @@ public class PlayerMovement_Motor : MonoBehaviour
        
         Rigidbody.AddForce(jumpDir * jumpHeight);
         jumped = true;
+        anim.SetBool("jump", true);
         Debug.Log("Jumped");
         
     }
