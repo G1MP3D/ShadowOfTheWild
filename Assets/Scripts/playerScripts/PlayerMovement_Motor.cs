@@ -23,7 +23,7 @@ public class PlayerMovement_Motor : MonoBehaviour
     public bool jumped;
     Vector3 moveDir = Vector3.zero;
 
-    Animator anim;
+
     public Animator anim;
 	// Use this for initialization
 	void Start () 
