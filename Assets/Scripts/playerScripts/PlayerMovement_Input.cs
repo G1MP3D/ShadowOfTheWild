@@ -44,6 +44,7 @@ public class PlayerMovement_Input : MonoBehaviour
     float rotationY = 0F;
     public GameObject camMain;
     public bool camRotateCheck;
+    //public bool sitting;
 
     Quaternion originalRotation;
     Quaternion originalCamRotation;
@@ -63,6 +64,7 @@ public class PlayerMovement_Input : MonoBehaviour
     {
         horizontalAxis = Input.GetAxis(horizontalKey);
         verticalAxis = Input.GetAxis(verticalKey);
+        
 
         //Vector3 moveDirection = new Vector3(horizontalAxis, 0, verticalAxis);
         //moveDirection.y = 0f;
@@ -70,18 +72,26 @@ public class PlayerMovement_Input : MonoBehaviour
         if(horizontalAxis < 0 && grounded)
         {
             Motor.Move(transform.right *-1,Motor.playerWalkSpeed);
+            Motor.anim.SetBool("isWalking", true);
         }
         if (horizontalAxis > 0 && grounded)
         {
             Motor.Move(transform.right, Motor.playerWalkSpeed);
+            Motor.anim.SetBool("isWalking", true);
         }
         if (verticalAxis < 0 && grounded)
         {
             Motor.Move(transform.forward *-1, Motor.playerWalkSpeed);
+            Motor.anim.SetBool("isWalking", true);
         }
         if (verticalAxis > 0 && grounded)
         {
             Motor.Move(transform.forward, Motor.playerWalkSpeed);
+            Motor.anim.SetBool("isWalking", true);
+        }
+        else if(verticalAxis == 0 && horizontalAxis == 0)
+        {
+            Motor.anim.SetBool("isWalking", false);
         }
         if(Input.GetKey(KeyCode.Space) && grounded)
         {
@@ -92,6 +102,7 @@ public class PlayerMovement_Input : MonoBehaviour
         {
             grounded = true;
         }
+       
 
         
 

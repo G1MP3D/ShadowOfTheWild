@@ -24,6 +24,7 @@ public class PlayerMovement_Motor : MonoBehaviour
     Vector3 moveDir = Vector3.zero;
 
     Animator anim;
+    public Animator anim;
 	// Use this for initialization
 	void Start () 
     {
@@ -45,6 +46,8 @@ public class PlayerMovement_Motor : MonoBehaviour
         }
         anim.SetBool("sitting", false);
         anim.SetBool("isWalking", true);
+        //anim.SetBool("sitting", false);
+        //anim.SetBool("isWalking", true);
         Rigidbody.AddForce(direction * walkSpeed);
         
     }
