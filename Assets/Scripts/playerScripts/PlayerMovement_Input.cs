@@ -74,31 +74,34 @@ public class PlayerMovement_Input : MonoBehaviour
         if(horizontalAxis < 0 && grounded)
         {
             Motor.Move(transform.right *-1,Motor.playerWalkSpeed);
-            Motor.anim.SetBool("isWalking", true);
+            Motor.anim.SetBool("IsWalking", true);
         }
         if (horizontalAxis > 0 && grounded)
         {
             Motor.Move(transform.right, Motor.playerWalkSpeed);
-            Motor.anim.SetBool("isWalking", true);
+            Motor.anim.SetBool("IsWalking", true);
         }
         if (verticalAxis < 0 && grounded)
         {
             Motor.Move(transform.forward *-1, Motor.playerWalkSpeed);
-            Motor.anim.SetBool("isWalking", true);
+            Motor.anim.SetBool("IsWalking", true);
         }
         if (verticalAxis > 0 && grounded)
         {
             Motor.Move(transform.forward, Motor.playerWalkSpeed);
-            Motor.anim.SetBool("isWalking", true);
+            Motor.anim.SetBool("IsWalking", true);
         }
         else if(verticalAxis == 0 && horizontalAxis == 0)
         {
-            Motor.anim.SetBool("isWalking", false);
+            Motor.StopMove();
+            Motor.anim.SetBool("IsWalking", false);
         }
         if(Input.GetKey(KeyCode.Space) && grounded)
         {
+            Debug.Log(grounded);
             Motor.Jump(Vector3.up, Motor.jumpheight);
             grounded = false;
+            Debug.Log(grounded);
         }
         if(!Motor.jumped)
         {

@@ -61,7 +61,10 @@
      <Compile Include="Assets\Scripts\moveTowardsPlayer.cs" />
      <Compile Include="Assets\Scripts\playerCamScript2.cs" />
      <Compile Include="Assets\Scripts\playerScripts\BirdControlls.cs" />
+     <Compile Include="Assets\Scripts\playerScripts\MoveToCorruption.cs" />
      <Compile Include="Assets\Scripts\playerScripts\OnStartInvisable.cs" />
+     <Compile Include="Assets\Scripts\playerScripts\PlayerDamage.cs" />
+     <Compile Include="Assets\Scripts\playerScripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerMovement_Input.cs" />
      <Compile Include="Assets\Scripts\playerScripts\PlayerMovement_Motor.cs" />
      <Compile Include="Assets\Scripts\playerScripts\Score.cs" />

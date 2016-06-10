@@ -19,17 +19,17 @@ public class PlayerMovement_Motor : MonoBehaviour
     public float playerWalkSpeed = 5.0f;
     public float jumpheight = 10.0f;
     public float jumpDist = 3.0f;
-    public float grvty;
+    public float grvty = 9.81f;
     public bool jumped;
     Vector3 moveDir = Vector3.zero;
-
+    Vector3 prevPos;
 
     public Animator anim;
 	// Use this for initialization
 	void Start () 
     {
-        anim = transform.FindChild("character").GetComponent<Animator>();
-        anim.SetBool("sitting", true);
+        anim = transform.GetComponentInChildren<Animator>();
+        //anim.SetBool("sitting", true);
         jumped = false;
 	}
 	
@@ -44,34 +44,37 @@ public class PlayerMovement_Motor : MonoBehaviour
         {
             return;
         }
-        anim.SetBool("sitting", false);
-        anim.SetBool("isWalking", true);
         //anim.SetBool("sitting", false);
-        //anim.SetBool("isWalking", true);
-        Rigidbody.AddForce(direction * walkSpeed);
+        anim.SetBool("Moving", true);
+        Rigidbody.MovePosition(transform.position + (direction * playerWalkSpeed *Time.deltaTime));
         
+    }
+    public void StopMove()
+    {
+        Rigidbody.velocity = Vector3.zero;
     }
     public void Jump(Vector3 jumpDir, float jumpHeight)
     {
-        if(Rigidbody == null)
+        prevPos = transform.position;
+        if (Rigidbody == null)
         {
             return;
         }
-        Rigidbody.velocity += (jumpDir *jumpheight) + (jumpDist * transform.forward);
+        Rigidbody.velocity += (jumpDir * jumpHeight) + (jumpDist * transform.forward);
 
-       
-        Rigidbody.AddForce(jumpDir * jumpHeight);
-        jumped = true;
-        anim.SetBool("jump", true);
-        Debug.Log("Jumped");
         
+        Rigidbody.AddForce((jumpDir * jumpHeight));
+        jumped = true;
+        Debug.Log("Jumped");
+
     }
+
     public void OnCollisionEnter(Collision col)
     {
-        if(col.collider.tag == "Ground" && jumped )
+        if(col.collider.tag == "Ground" && jumped)
         {
             jumped = false;
-            Debug.Log(jumped);
+            
         }
     }
 }
