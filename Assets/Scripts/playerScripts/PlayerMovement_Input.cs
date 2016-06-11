@@ -70,48 +70,47 @@ public class PlayerMovement_Input : MonoBehaviour
 
         //Vector3 moveDirection = new Vector3(horizontalAxis, 0, verticalAxis);
         //moveDirection.y = 0f;
-        
-        if(horizontalAxis < 0 && grounded)
+
+        if (horizontalAxis < 0 && grounded)
         {
-            Motor.Move(transform.right *-1,Motor.playerWalkSpeed);
-            Motor.anim.SetBool("IsWalking", true);
+            Motor.Move(transform.right * -1, Motor.playerWalkSpeed);
+            Motor.anim.SetBool("Moving", true);
         }
         if (horizontalAxis > 0 && grounded)
         {
             Motor.Move(transform.right, Motor.playerWalkSpeed);
-            Motor.anim.SetBool("IsWalking", true);
+            Motor.anim.SetBool("Moving", true);
         }
         if (verticalAxis < 0 && grounded)
         {
-            Motor.Move(transform.forward *-1, Motor.playerWalkSpeed);
-            Motor.anim.SetBool("IsWalking", true);
+            Motor.Move(transform.forward * -1, Motor.playerWalkSpeed);
+            Motor.anim.SetBool("Moving", true);
         }
         if (verticalAxis > 0 && grounded)
         {
             Motor.Move(transform.forward, Motor.playerWalkSpeed);
-            Motor.anim.SetBool("IsWalking", true);
+            Motor.anim.SetBool("Moving", true);
         }
-        else if(verticalAxis == 0 && horizontalAxis == 0)
+        if (verticalAxis == 0 && horizontalAxis == 0)
         {
-            Motor.StopMove();
-            Motor.anim.SetBool("IsWalking", false);
+            Motor.anim.SetBool("Moving", false);
         }
-        if(Input.GetKey(KeyCode.Space) && grounded)
+        if (Input.GetKey(KeyCode.Space) && grounded)
         {
             Debug.Log(grounded);
             Motor.Jump(Vector3.up, Motor.jumpheight);
             grounded = false;
             Debug.Log(grounded);
         }
-        if(!Motor.jumped)
+        if (!Motor.jumped)
         {
             grounded = true;
         }
-       
 
-        
 
-        
+
+
+
 
         #region Rotation
         if (axes == RotationAxes.MouseXAndY)
@@ -146,7 +145,7 @@ public class PlayerMovement_Input : MonoBehaviour
             camMain.transform.localRotation = originalCamRotation * yQuaternion;
         }
         #endregion
-	}
+    }
     public static float ClampAngle(float angle, float min, float max)
     {
         if (angle < -360F)
@@ -158,5 +157,5 @@ public class PlayerMovement_Input : MonoBehaviour
             angle -= 360F;
         }
         return Mathf.Clamp(angle, min, max);
-    }
+   }
 }

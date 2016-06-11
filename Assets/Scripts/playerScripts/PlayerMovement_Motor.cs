@@ -22,7 +22,6 @@ public class PlayerMovement_Motor : MonoBehaviour
     public float grvty = 9.81f;
     public bool jumped;
     Vector3 moveDir = Vector3.zero;
-    Vector3 prevPos;
 
     public Animator anim;
 	// Use this for initialization
@@ -49,13 +48,8 @@ public class PlayerMovement_Motor : MonoBehaviour
         Rigidbody.MovePosition(transform.position + (direction * playerWalkSpeed *Time.deltaTime));
         
     }
-    public void StopMove()
-    {
-        Rigidbody.velocity = Vector3.zero;
-    }
     public void Jump(Vector3 jumpDir, float jumpHeight)
     {
-        prevPos = transform.position;
         if (Rigidbody == null)
         {
             return;
