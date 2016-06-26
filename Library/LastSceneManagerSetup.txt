@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Garrett_Scene.unity
+- path: Assets/progress2016_06_26.unity
   isLoaded: 1
   isActive: 1

@@ -73,9 +73,15 @@
     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\SmoothMouseLook.cs" />
     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxChanger.cs" />
     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxRotator.cs" />
+    <Compile Include="Assets\Scripts\AI\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\AI\EnemyAI2.cs" />
+    <Compile Include="Assets\Scripts\AI\FieldOfViewEditor.cs" />
+    <Compile Include="Assets\Scripts\AI\fieldOfView.cs" />
     <Compile Include="Assets\Scripts\Curruptor.cs" />
     <Compile Include="Assets\Scripts\FollowCam.cs" />
     <Compile Include="Assets\Scripts\Follower.cs" />
+    <Compile Include="Assets\Scripts\GageSpellStuff\PlayerSpells.cs" />
+    <Compile Include="Assets\Scripts\GageSpellStuff\Spell.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CoinScript.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ControllerBackButton.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ControllerInputForMenu.cs" />
