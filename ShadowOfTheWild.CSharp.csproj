@@ -89,7 +89,10 @@
     <Compile Include="Assets\Scripts\moveTowardsPlayer.cs" />
     <Compile Include="Assets\Scripts\playerCamScript2.cs" />
     <Compile Include="Assets\Scripts\playerScripts\BirdControlls.cs" />
+    <Compile Include="Assets\Scripts\playerScripts\MoveToCorruption.cs" />
     <Compile Include="Assets\Scripts\playerScripts\OnStartInvisable.cs" />
+    <Compile Include="Assets\Scripts\playerScripts\PlayerDamage.cs" />
+    <Compile Include="Assets\Scripts\playerScripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\playerScripts\PlayerMovement_Input.cs" />
     <Compile Include="Assets\Scripts\playerScripts\PlayerMovement_Motor.cs" />
     <Compile Include="Assets\Scripts\playerScripts\Score.cs" />
@@ -105,6 +108,11 @@
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

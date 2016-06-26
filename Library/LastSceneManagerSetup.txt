@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SceneTrevor.unity
+- path: Assets/Garrett_Scene.unity
   isLoaded: 1
   isActive: 1
