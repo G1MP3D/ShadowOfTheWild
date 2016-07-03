@@ -55,8 +55,8 @@ public class PlayerMovement_Input : MonoBehaviour
         camMain = GameObject.Find("Main Camera");
         empty = GameObject.Find("Empty");
         Debug.Log("Camera:" + camMain);
-        originalRotation = transform.localRotation;
-        originalCamRotation = camMain.transform.localRotation;
+        originalRotation = transform.rotation;
+        //originalCamRotation = camMain.transform.localRotation;
         camRotateCheck = false;
         grounded = true;
 	}
@@ -68,37 +68,42 @@ public class PlayerMovement_Input : MonoBehaviour
         verticalAxis = Input.GetAxis(verticalKey);
         
 
-        //Vector3 moveDirection = new Vector3(horizontalAxis, 0, verticalAxis);
+        Vector3 moveDirection = new Vector3(horizontalAxis, 0, verticalAxis);
+        moveDirection = transform.TransformDirection(moveDirection);
+        
         //moveDirection.y = 0f;
 
         if (horizontalAxis < 0 && grounded)
         {
-            Motor.Move(transform.right * -1, Motor.playerWalkSpeed);
+            //Motor.Move(transform.right * -1, Motor.playerWalkSpeed);
             Motor.anim.SetBool("Moving", true);
+
         }
         if (horizontalAxis > 0 && grounded)
         {
-            Motor.Move(transform.right, Motor.playerWalkSpeed);
+            
             Motor.anim.SetBool("Moving", true);
         }
         if (verticalAxis < 0 && grounded)
         {
-            Motor.Move(transform.forward * -1, Motor.playerWalkSpeed);
+         
             Motor.anim.SetBool("Moving", true);
         }
         if (verticalAxis > 0 && grounded)
         {
-            Motor.Move(transform.forward, Motor.playerWalkSpeed);
+          
             Motor.anim.SetBool("Moving", true);
         }
         if (verticalAxis == 0 && horizontalAxis == 0)
         {
             Motor.anim.SetBool("Moving", false);
         }
+       Motor.Move(moveDirection, Motor.playerWalkSpeed);
+      
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
             Debug.Log(grounded);
-            Motor.Jump(Vector3.up, Motor.jumpheight);
+            Motor.Jump(Vector3.up, Motor.jumpheight, moveDirection);
             grounded = false;
             Debug.Log(grounded);
         }
@@ -116,17 +121,17 @@ public class PlayerMovement_Input : MonoBehaviour
         if (axes == RotationAxes.MouseXAndY)
         {
             // Read the mouse input axis
-            rotationX += Input.GetAxis("Mouse X") * sensitivityX;
-            rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+            //rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+            //rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
 
-            rotationX = ClampAngle(rotationX, minimumX, maximumX);
-            rotationY = ClampAngle(rotationY, minimumY, maximumY);
+            //rotationX = ClampAngle(rotationX, minimumX, maximumX);
+            //rotationY = ClampAngle(rotationY, minimumY, maximumY);
 
-            Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
-            Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
+            //Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
+            //Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
 
-            transform.localRotation = originalRotation * xQuaternion;
-            empty.transform.localRotation = originalCamRotation * yQuaternion;
+            //transform.localRotation = originalRotation * xQuaternion;
+            ////empty.transform.localRotation = originalCamRotation * yQuaternion;
         }
         else if (axes == RotationAxes.MouseX)
         {
@@ -134,7 +139,7 @@ public class PlayerMovement_Input : MonoBehaviour
             rotationX = ClampAngle(rotationX, minimumX, maximumX);
 
             Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
-            transform.localRotation = originalRotation * xQuaternion;
+            transform.localRotation= originalRotation * xQuaternion;
         }
         else
         {
