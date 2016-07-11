@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\playerScripts\PlayerMovement_Motor.cs" />
      <Compile Include="Assets\Scripts\playerScripts\Score.cs" />
      <Compile Include="Assets\Scripts\playerScripts\SendPlayerBack.cs" />
+     <Compile Include="Assets\Scripts\playerScripts\Spells.cs" />
      <Compile Include="Assets\Scripts\playerScripts\Switch.cs" />
      <Compile Include="Assets\Scripts\playerScripts\basicMovment.cs" />
      <Compile Include="Assets\Scripts\playerScripts\deerController.cs" />

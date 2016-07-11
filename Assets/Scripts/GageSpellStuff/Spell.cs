@@ -91,6 +91,13 @@ public class Invisibility : Spell
                 break;
         }
     }
+
+    public class Shield : Spell
+    {
+        float duration = 5.0f;
+        float castTime = 1.0f;
+        float timer = 0; // timer for castTime and duration length
+    }
     public override void Cast()
     {
         timer = 0;

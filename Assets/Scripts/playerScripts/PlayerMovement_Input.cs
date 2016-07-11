@@ -104,6 +104,7 @@ public class PlayerMovement_Input : MonoBehaviour
         {
             Debug.Log(grounded);
             Motor.Jump(Vector3.up, Motor.jumpheight, moveDirection);
+            Motor.anim.SetBool("Moving", false);
             grounded = false;
             Debug.Log(grounded);
         }

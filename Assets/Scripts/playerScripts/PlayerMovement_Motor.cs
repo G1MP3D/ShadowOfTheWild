@@ -72,7 +72,7 @@ public class PlayerMovement_Motor : MonoBehaviour
         {
             return;
         }
-        Rigidbody.velocity += ((jumpDir * jumpHeight) + (direction))/2;
+        Rigidbody.velocity += ((jumpDir * jumpHeight) + direction)/5;
 
         
         Rigidbody.AddForce((jumpDir * jumpHeight));
